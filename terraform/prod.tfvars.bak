@@ -1,7 +1,7 @@
-project = "<PROJECT_ID>"
+project = "hackathotest"
 region  = "us-central1"
 
-data_transformation_project = "<PROJECT_ID>"
+data_transformation_project = "hackathotest"
 environment                 = "dev"
 
 deploy_cloud_workflows      = true
@@ -44,4 +44,4 @@ composer_config             = {
 
 # do not set in prod deployment, only needed for demo
 enable_peering_to_sample_vpc = true
-sample_vpc_self_link = "https://www.googleapis.com/compute/v1/projects/<PROJECT_ID>/global/networks/sample-vpc"
+sample_vpc_self_link = "https://www.googleapis.com/compute/v1/projects/hackathotest/global/networks/sample-vpc"
